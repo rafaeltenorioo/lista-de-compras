@@ -3,7 +3,13 @@
 Este projeto é uma aplicação web de lista de compras interativa, desenvolvida como parte da **Jornada de Carreira Front-End da Alura**. O objetivo foi transformar um projeto estático em uma ferramenta dinâmica e funcional, aplicando conceitos essenciais de React.
 
 ---
+### 🚀 **Ver Projeto**
 
+O projeto foi publicado (deploy) na **Vercel** e pode ser acessado através deste link:
+
+**[lista-de-compras-mu-opal.vercel.app](https://lista-de-compras-mu-opal.vercel.app/)**
+
+---
 ### ✨ **Funcionalidades**
 
 -   **Adicionar e Remover Itens:** Gerencie sua lista de compras de forma simples e intuitiva.
