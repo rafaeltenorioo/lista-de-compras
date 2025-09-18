@@ -1,58 +1,56 @@
-![](thumbnail.png)
+# 🛒 Minha Lista de Compras React
 
-# App de Checklist de Estudos
-
-Um projeto prático desenvolvido passo a passo para quem já tem o básico de ReactJS e quer evoluir para construir aplicações mais organizadas, escaláveis e com experiência moderna. Ao longo do curso, criamos um app de checklist para organizar estudos, tarefas e o que mais precisar.
-
-## 🔨 Funcionalidades do projeto
-
-* Adição, edição e exclusão de tarefas
-* Organização das tarefas em "Para estudar" e "Concluído"
-* Marcação de tarefas como concluídas
-* Feedback visual para lista vazia (empty state)
-* Modal para adicionar/editar tarefas
-* Lista animada de tarefas
-
-![](screen-capture.png)
-
-## ✔️ Técnicas e tecnologias utilizadas
-
-O desenvolvimento do projeto aborda as seguintes técnicas e tecnologias:
-
-* **useState e useEffect**: Gerenciamento de estado e persistência no localStorage
-* **useContext**: Contexto global para compartilhar estado das tarefas
-* **Componentização**: Componentes reutilizáveis como Button, FabButton, Dialog, TodoForm, TodoItem e TodoGroup
-* **Estilização com CSS Modules**: Organização dos estilos por componente
-* **Manipulação de formulários controlados**
-* **Persistência local com localStorage**: Salva as tarefas mesmo fechando o app
-* **Ícones SVG personalizados**
-* **Boas práticas de organização de código**
-
-## 🛠️ Como rodar o projeto
-
-Após baixar o projeto, siga os passos abaixo para executar localmente:
-
-1. Certifique-se de que você já tem Node.js instalado ([guia oficial](https://nodejs.org/en/download/)).
-2. No terminal, navegue até a pasta do projeto e instale as dependências:
-
-```bash
-npm install
-```
-
-3. Execute o projeto:
-
-```bash
-npm run dev
-```
-
-4. Acesse no navegador: [http://localhost:5173](http://localhost:5173) (Vite).
-
-## 📚 Mais informações do curso
-
-Curtiu o projeto e quer aprender na prática? O passo a passo completo faz parte do segundo ccurso da carreira React da Alura, com foco em experiência real de desenvolvimento, boas práticas e refatoração progressiva.
-
-Se quiser experimentar, explore o código e customize o checklist do seu jeito!
+Este projeto é uma aplicação web de lista de compras interativa, desenvolvida como parte da **Jornada de Carreira Front-End da Alura**. O objetivo foi transformar um projeto estático em uma ferramenta dinâmica e funcional, aplicando conceitos essenciais de React.
 
 ---
 
-Vida longa e próspera 🚀
+### ✨ **Funcionalidades**
+
+-   **Adicionar e Remover Itens:** Gerencie sua lista de compras de forma simples e intuitiva.
+-   **Marcar Itens como 'Feitos':** Alterne o estado de cada compra de "a comprar" para "comprados" com um clique, facilitando o acompanhamento do que já está no carrinho.
+-   **Persistência de Dados:** A lista é salva no **`localStorage`** do navegador, garantindo que suas compras não sejam perdidas mesmo após a página ser fechada ou recarregada.
+-   **Gerenciamento de Estado:** A aplicação utiliza a **Context API** para um gerenciamento de estado global eficiente, permitindo o compartilhamento de dados entre os componentes de forma simples.
+
+---
+
+### 📚 **Tecnologias e Conceitos Aplicados**
+
+Este projeto foi fundamental para solidificar meu conhecimento em React e suas melhores práticas:
+
+-   **React Hooks (`useState`, `useEffect`, `useRef`):** Utilizados para gerenciar o estado dos componentes e lidar com os efeitos colaterais da aplicação, como a persistência de dados no `localStorage`.
+-   **Context API:** Implementada para evitar o "prop drilling" e facilitar a comunicação entre componentes.
+-   **JavaScript, HTML e CSS:** O projeto foi construído com uma base sólida nessas tecnologias, focando na semântica do HTML, na elegância do CSS e na lógica clara do JavaScript.
+
+---
+
+### 🚀 **Como Rodar o Projeto**
+
+Para executar o projeto localmente, siga os passos abaixo:
+
+1.  Clone o repositório:
+    ```bash
+    git clone [https://www.dio.me/articles/enviando-seu-projeto-para-o-github](https://www.dio.me/articles/enviando-seu-projeto-para-o-github)
+    ```
+2.  Navegue até o diretório do projeto:
+    ```bash
+    cd nome-do-seu-repositorio
+    ```
+3.  Instale as dependências:
+    ```bash
+    npm install
+    ```
+4.  Inicie a aplicação:
+    ```bash
+    npm start
+    ```
+
+A aplicação será aberta automaticamente no seu navegador padrão em `http://localhost:3000`.
+
+---
+
+### 🙏 **Agradecimentos Especiais**
+
+Este projeto foi uma experiência de aprendizado **incrível**. Gostaria de expressar minha profunda gratidão:
+
+-   À **@alura**, pela qualidade da **Jornada de Carreira Front-End**, que oferece um caminho claro e prático para o desenvolvimento profissional.
+-   Ao professor **@viniciosneves**, cuja didática e paciência tornaram o aprendizado de conceitos complexos de React em algo tão acessível e prazeroso.
